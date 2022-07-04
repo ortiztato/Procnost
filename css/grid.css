@@ -1,0 +1,104 @@
+.gridimg {
+    display: grid;
+    padding: 0;
+    /* gap: 10px; */
+    grid-template-columns: 1fr;
+    grid-auto-rows: 100vw;
+    color: var(--blacktext);
+    font-size: 30px;
+    text-align: center;
+    grid-template-areas: "uno""dos""cuatro""tres""cinco""seis""ocho""siete";
+
+}
+
+.griddiv {
+    display: grid;
+    height: 100%;
+    width: 100%;
+    justify-items: center;
+    align-items: center;
+}
+
+.griddiv h1 {
+    font-size: 40px;
+    align-self: flex-end;
+}
+
+.griddiv p {
+    font-size: 20px;
+    align-self: flex-start;
+}
+
+.griddivitem1 {
+    background-color: white;
+    grid-area: uno;
+}
+
+.griddivitem2 {
+    background-image: linear-gradient(0deg,
+            rgba(0, 0, 0, 0.1),
+            rgba(0, 0, 0, 0.1)), url("img/prod1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    grid-area: dos;
+}
+
+.griddivitem3 {
+    background-image: linear-gradient(0deg,
+            rgba(0, 0, 0, 0.1),
+            rgba(0, 0, 0, 0.1)), url("img/prod4.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    grid-area: tres;
+}
+
+.griddivitem4 {
+    background-color: var(--complementcolor);
+    grid-area: cuatro;
+}
+
+.griddivitem5 {
+    background-color: white;
+    grid-area: cinco;
+}
+
+.griddivitem6 {
+    background-image: linear-gradient(0deg,
+            rgba(0, 0, 0, 0.1),
+            rgba(0, 0, 0, 0.1)), url("img/prod3.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    grid-area: seis;
+}
+
+.griddivitem7 {
+    background-image: linear-gradient(0deg,
+            rgba(0, 0, 0, 0.1),
+            rgba(0, 0, 0, 0.1)), url("img/prod2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    grid-area: siete;
+}
+
+.griddivitem8 {
+    background-color: var(--complementcolor);
+    grid-area: ocho;
+}
+
+@media (min-width: 950px) {
+    .gridimg {
+        display: grid;
+        padding: 0;
+        /* gap: 10px; */
+        grid-template-columns: 1fr 1fr;
+        grid-auto-rows: 50vw;
+        color: var(--blacktext);
+        font-size: 30px;
+        text-align: center;
+
+    }
+}

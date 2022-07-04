@@ -1,0 +1,85 @@
+.contacts {
+  display: flex;
+  flex-direction: column;
+  min-height: 60vh;
+  color: var(--whitetext);
+
+
+}
+
+.contact {
+  padding: 0px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.contact-body h2 {
+  margin-top: 80px;
+}
+
+
+.contact-title {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 30px;
+  margin: 25px;
+}
+
+
+
+.contact-company {
+  font-size: 20px;
+  text-transform: uppercase;
+  margin-top: 10px;
+}
+
+.contact-position {
+  font-weight: 300;
+  font-size: 14x;
+  margin-top: 20px;
+
+}
+
+.contact-description {
+  font-weight: 400;
+  font-size: 16px;
+  margin-top: 10px;
+  line-height: 1.6;
+}
+
+
+
+@media (min-width: 950px) {
+  .contact {
+    min-height: 45vh;
+  }
+
+  .contact-title {
+    font-size: 35px;
+    margin: 35px 0;
+  }
+
+  .contact-date {
+    font-size: 30px;
+  }
+
+  .contact-company {
+    font-size: 20px;
+  }
+
+  .contact-position {
+    font-weight: bold;
+    font-size: 16px;
+    margin-top: 20px;
+  }
+
+  .contact-description {
+    font-size: 16px;
+    margin-top: 10px;
+    line-height: 1.3;
+  }
+
+
+
+}
