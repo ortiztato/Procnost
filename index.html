@@ -9,12 +9,11 @@
   <link rel="stylesheet" href="css/main.css" />
   <link rel="stylesheet" href="css/navbar.css" />
   <link rel="stylesheet" href="css/profile.css" />
-  <link rel="stylesheet" href="css/skills.css" />
-  <link rel="stylesheet" href="css/experiences.css">
   <link rel="stylesheet" href="css/footer.css">
   <link rel="stylesheet" href="css/contact.css">
   <link rel="stylesheet" href="css/hero.css">
   <link rel="stylesheet" href="css/grid.css">
+  <link rel="stylesheet" href="css/carrousel.css">
   <script defer src="js/app.js"></script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -30,6 +29,7 @@
   <link
     href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
     rel="stylesheet">
+  <script src="https://kit.fontawesome.com/887a835504.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -38,7 +38,7 @@
       <a href="#" class="logo">
         <!-- <img height="50" width="50" src="img/youtube-picture.png" alt="programador" /> -->
         <div class="logotype">
-          Procnost<br />
+          PROCNOST<br />
         </div>
       </a>
       <button class="open-menu" aria-label="Abrir menú">
@@ -58,6 +58,32 @@
     <p class="linea1">HERRAMIENTAS </p>
     <p class="linea2">DE VERDAD</p>
   </section>
+
+  <div class="slide-contenedor">
+    <div class="miSlider fade">
+      <img src="1 (1).jpg" alt="">
+    </div>
+    <div class="miSlider fade">
+      <img src="1 (2).jpg" alt="">
+    </div>
+    <div class="miSlider fade">
+      <img src="1 (3).jpg" alt="">
+    </div>
+    <div class="miSlider fade">
+      <img src="1 (4).jpg" alt="">
+    </div>
+    <div class="direcciones">
+      <a href="#" class="atras" onclick="avanzaSlide(-1)">&#10094;</a>
+      <a href="#" class="adelante" onclick="avanzaSlide(1)">&#10095;</a>
+    </div>
+    <div class="barras">
+      <span class="barra active" onclick="posicionSlide(1)"></span>
+      <span class="barra" onclick="posicionSlide(2)"></span>
+      <span class="barra" onclick="posicionSlide(3)"></span>
+      <span class="barra" onclick="posicionSlide(4)"></span>
+    </div>
+  </div>
+
   <a name="productos"></a>
   <section class="gridimg">
     <div class="griddiv griddivitem1">
@@ -98,7 +124,8 @@
           <!-- <div class="experience-date">Contact</div> -->
           <div class="contact-company">Contact</div>
           <div class="contact-description">
-            ortiztato@gmail.com <br>
+            www.procnost.mercadolibre.com <br>
+            contacto@procnost.com <br>
             WhatsApp +5491140937510 <br>
           </div>
           <div class="fill"></div>
@@ -109,7 +136,7 @@
 
   <footer id="footer">
     <div class="container">
-      <p>&copy; Procnost</p>
+      <p>&copy; PROCNOST</p>
     </div>
   </footer>
 

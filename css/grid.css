@@ -99,6 +99,7 @@
         color: var(--blacktext);
         font-size: 30px;
         text-align: center;
+        grid-template-areas: "uno dos""tres cuatro""cinco seis""siete ocho";
 
     }
 }
