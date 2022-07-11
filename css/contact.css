@@ -48,6 +48,15 @@
   line-height: 1.6;
 }
 
+.contact-description>a {
+  margin-right: 8px;
+  justify-self: end;
+  display: flex;
+  align-items: center;
+  gap: 3px;
+  color: var(--textcolor)
+}
+
 
 
 @media (min-width: 950px) {
