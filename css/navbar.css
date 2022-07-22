@@ -1,7 +1,7 @@
 .topheader {
   /* box-shadow: 0 4px 5px var(--navbar-shallow-color); */
   position: fixed;
-  background-color: var(--basecolor);
+  background-color: #00000070;
   left: 0;
   top: 0;
   width: 100%;
@@ -27,7 +27,8 @@
 }
 
 .logo img {
-  border-radius: 50%;
+  border-radius: 0%;
+  height: 30px;
 }
 
 /* Menu */
@@ -43,7 +44,7 @@
 }
 
 .menu a {
-  color: var(--complementcolor);
+  color: whitesmoke;
   font-size: 18px;
   font-weight: 500;
   line-height: 50px;
@@ -53,7 +54,7 @@
 
 .menu a::after {
   content: "";
-  background-color: var(--whitetext);
+  background-color: whitesmoke;
   position: absolute;
   left: 0;
   top: calc(100% + 4px);
@@ -70,7 +71,7 @@
 }
 
 .menu a:hover {
-  color: var(--whitetext);
+  color: whitesmoke;
 }
 
 .open-menu,
@@ -85,6 +86,12 @@
 }
 
 @media (max-width: 950px) {
+
+  .logo img {
+    border-radius: 0%;
+    height: 22px;
+  }
+
 
   /* Menu */
   .menu {
@@ -108,7 +115,7 @@
   }
 
   .menu a {
-    color: var(--complementcolor);
+    color: whitesmoke;
     line-height: 70px;
     font-size: 25px;
   }

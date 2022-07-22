@@ -14,7 +14,7 @@ closeMenuBtn.addEventListener("click", toggleMenu);
 contactbtn.addEventListener("click", toggleMenu);
 productosbtn.addEventListener("click", toggleMenu);
 
-
+/* 
 let indice = 1;
 muestraSlides(indice);
 
@@ -49,4 +49,4 @@ function muestraSlides(n) {
   slides[indice - 1].style.display = 'block';
   barras[indice - 1].className += ' active';
 
-}
+} */

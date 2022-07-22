@@ -1,13 +1,6 @@
-/* * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
- */
-
 .slide-contenedor {
     width: 100%;
-    height: 30vh;
+    height: 90%;
     position: relative;
     overflow: hidden;
     margin-bottom: 20px;
@@ -64,12 +57,12 @@
 
 .barra {
     cursor: pointer;
-    height: 2px;
-    width: 25px;
-    margin: 0 2px;
+    height: 8px;
+    width: 8px;
+    border-radius: 50%;
+    margin: 0 4px 0 4px;
     background: #dcdde1;
     display: inline-block;
-    margin-left: 3px;
 }
 
 .active {
@@ -95,7 +88,7 @@
 
     .slide-contenedor {
         width: 100%;
-        height: 55vh;
+        height: 90%;
         position: relative;
         overflow: hidden;
         margin-bottom: 20px;
