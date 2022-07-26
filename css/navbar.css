@@ -92,9 +92,7 @@
     height: 22px;
   }
 
-
-  /* Menu */
-  .menu {
+  /* .menu {
     flex-direction: column;
     position: fixed;
     left: 0;
@@ -108,7 +106,7 @@
     opacity: 0;
     pointer-events: none;
     transition: opacity 0.3s;
-  }
+  } */
 
   .menu li {
     padding: 0;
@@ -120,7 +118,7 @@
     font-size: 25px;
   }
 
-  .open-menu,
+  /* .open-menu,
   .close-menu {
     display: block;
     border: none;
@@ -145,7 +143,7 @@
 
   .menu a::after {
     content: none;
-  }
+  } */
 
   .menu a:hover,
   .menu a.selected {

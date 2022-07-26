@@ -72,7 +72,7 @@
 .griddivitem5 {
     /* background-color: #06283D;
     color: whitesmoke; */
-    background-color: #e0dfe4;
+    /* background-color: #e0dfe4; */
     background: linear-gradient(0.25turn, #e3e5e4, #d2d2dc);
     color: #06283D;
     grid-area: cinco;
