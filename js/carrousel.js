@@ -1,6 +1,13 @@
-
+let autointerv;
 let indice = 1;
 muestraSlides(indice);
+
+
+function autoslide() {
+    autointerv = setInterval(
+        function tiempo() { muestraSlides(indice += 1) },
+        4000);
+}
 
 function avanzaSlide(n) {
     muestraSlides(indice += n);
@@ -9,9 +16,7 @@ function avanzaSlide(n) {
 function posicionSlide(n) {
     muestraSlides(indice = n);
 }
-/* setInterval(function tiempo() {
-    muestraSlides(indice += 1)
-}, 6000); */
+
 
 function muestraSlides(n) {
     let i;
@@ -31,5 +36,10 @@ function muestraSlides(n) {
     }
 
     barras[indice - 1].className += ' active';
-    port.className = `portada imgfondo${indice}`
+    port.className = `portada imgfondo${indice}`;
+    clearInterval(autointerv);
+    autoslide()
+
+
+
 }
