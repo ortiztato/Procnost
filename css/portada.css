@@ -13,9 +13,10 @@
     margin: 0;
 } */
 .imgcontainer {
-    display: flex;
-    justify-content: center;
+    display: block;
+    justify-items: center;
     margin-top: 35vh;
+    width: 100%;
 
 }
 
@@ -24,6 +25,13 @@
     width: 95vw;
     /* height: 150px;
  */
+}
+
+.logoportadasub {
+    object-fit: contain;
+    width: 65vw;
+    /* height: 150px; */
+
 }
 
 .portadatitulo {
@@ -72,14 +80,21 @@
 
     } */
     .imgcontainer {
-        display: flex;
+        display: grid;
+        text-align: center;
         justify-content: center;
-        margin-top: 35vh;
+        margin-top: 30vh;
 
     }
 
     .logoportada {
         width: 65vw;
+    }
+
+    .logoportadasub {
+        width: 30vw;
+        /* height: 150px; */
+
     }
 
 
