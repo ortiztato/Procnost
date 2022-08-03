@@ -21,9 +21,9 @@
 
 .logoportada {
     object-fit: contain;
-    width: 70vw;
-    height: 100px;
-
+    width: 95vw;
+    /* height: 150px;
+ */
 }
 
 .portadatitulo {
@@ -78,20 +78,9 @@
 
     }
 
-    /*     .logoportada {
-        object-fit: contain;
-        width: 70vw;
-        height: 100px;
-
+    .logoportada {
+        width: 65vw;
     }
-
-    .portadatitulo {
-        display: flex;
-        font-size: 20px;
-        justify-content: center;
-        margin: auto;
-        margin-top: auto;
-    } */
 
 
 }
