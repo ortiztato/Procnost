@@ -68,6 +68,10 @@
     margin-bottom: 0px;
 }
 
+.portada h1 {
+    color: #00000000;
+}
+
 @media (min-width: 950px) {
 
     /*     .imgcontainer {
