@@ -52,6 +52,12 @@
   text-align: justify;
 }
 
+h1 {
+  font-size: 22px;
+  margin: 0 0 5px;
+  font-weight: normal;
+}
+
 
 
 @media (min-width: 950px) {
