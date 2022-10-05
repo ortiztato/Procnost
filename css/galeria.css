@@ -37,7 +37,7 @@
 .galitem1 {
     background-image: linear-gradient(0deg,
             rgba(0, 0, 0, 0.1),
-            rgba(0, 0, 0, 0.1)), url("img/cgalitem1.jpg");
+            rgba(0, 0, 0, 0.1)), url("img/gallerymob1.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -46,7 +46,7 @@
 .galitem2 {
     background-image: linear-gradient(0deg,
             rgba(0, 0, 0, 0.1),
-            rgba(0, 0, 0, 0.1)), url("img/cgalitem2.jpg");
+            rgba(0, 0, 0, 0.1)), url("img/gallerymob2.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -55,7 +55,7 @@
 .galitem3 {
     background-image: linear-gradient(0deg,
             rgba(0, 0, 0, 0.1),
-            rgba(0, 0, 0, 0.1)), url("img/cgalitem3.jpg");
+            rgba(0, 0, 0, 0.1)), url("img/gallerymob3.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -64,7 +64,7 @@
 .galitem4 {
     background-image: linear-gradient(0deg,
             rgba(0, 0, 0, 0.1),
-            rgba(0, 0, 0, 0.1)), url("img/cgalitem4.jpg");
+            rgba(0, 0, 0, 0.1)), url("img/gallerymob4.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -73,7 +73,7 @@
 .galitem5 {
     background-image: linear-gradient(0deg,
             rgba(0, 0, 0, 0.1),
-            rgba(0, 0, 0, 0.1)), url("img/cgalitem5.jpg");
+            rgba(0, 0, 0, 0.1)), url("img/gallerymob5.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -82,7 +82,7 @@
 .galitem6 {
     background-image: linear-gradient(0deg,
             rgba(0, 0, 0, 0.1),
-            rgba(0, 0, 0, 0.1)), url("img/cgalitem6.jpg");
+            rgba(0, 0, 0, 0.1)), url("img/gallerymob6.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -174,42 +174,42 @@
     .galitem1 {
         background-image: linear-gradient(0deg,
                 rgba(0, 0, 0, 0.1),
-                rgba(0, 0, 0, 0.1)), url("img/galitem1.jpg");
+                rgba(0, 0, 0, 0.1)), url("img/gallerydesk1.jpg");
 
     }
 
     .galitem2 {
         background-image: linear-gradient(0deg,
                 rgba(0, 0, 0, 0.1),
-                rgba(0, 0, 0, 0.1)), url("img/galitem2.jpg");
+                rgba(0, 0, 0, 0.1)), url("img/gallerydesk2.jpg");
 
     }
 
     .galitem3 {
         background-image: linear-gradient(0deg,
                 rgba(0, 0, 0, 0.1),
-                rgba(0, 0, 0, 0.1)), url("img/galitem3.jpg");
+                rgba(0, 0, 0, 0.1)), url("img/gallerydesk3.jpg");
 
     }
 
     .galitem4 {
         background-image: linear-gradient(0deg,
                 rgba(0, 0, 0, 0.1),
-                rgba(0, 0, 0, 0.1)), url("img/galitem4.jpg");
+                rgba(0, 0, 0, 0.1)), url("img/gallerydesk4.jpg");
 
     }
 
     .galitem5 {
         background-image: linear-gradient(0deg,
                 rgba(0, 0, 0, 0.1),
-                rgba(0, 0, 0, 0.1)), url("img/galitem5.jpg");
+                rgba(0, 0, 0, 0.1)), url("img/gallerydesk5.jpg");
 
     }
 
     .galitem6 {
         background-image: linear-gradient(0deg,
                 rgba(0, 0, 0, 0.1),
-                rgba(0, 0, 0, 0.1)), url("img/galitem6.jpg");
+                rgba(0, 0, 0, 0.1)), url("img/gallerydesk6.jpg");
 
     }
 

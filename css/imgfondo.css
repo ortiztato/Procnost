@@ -1,7 +1,7 @@
 .imgfondo1 {
     background-image: linear-gradient(0deg,
             rgba(0, 0, 0, 0.5),
-            rgba(0, 0, 0, 0.5)), url("img/fondo1m.jpg");
+            rgba(0, 0, 0, 0.5)), url("img/fondomob1.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 35% 100%;
@@ -10,7 +10,7 @@
 .imgfondo2 {
     background-image: linear-gradient(0deg,
             rgba(0, 0, 0, 0.5),
-            rgba(0, 0, 0, 0.5)), url("img/fondo2m.jpg");
+            rgba(0, 0, 0, 0.5)), url("img/fondomob2.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 40%;
@@ -20,7 +20,7 @@
 .imgfondo3 {
     background-image: linear-gradient(0deg,
             rgba(0, 0, 0, 0.5),
-            rgba(0, 0, 0, 0.5)), url("img/fondo3m.jpg");
+            rgba(0, 0, 0, 0.5)), url("img/fondomob3.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 10% 100%;
@@ -29,7 +29,7 @@
 .imgfondo4 {
     background-image: linear-gradient(0deg,
             rgba(0, 0, 0, 0.5),
-            rgba(0, 0, 0, 0.5)), url("img/fondo4m.jpg");
+            rgba(0, 0, 0, 0.5)), url("img/fondomob4.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 52% 100%;
@@ -41,29 +41,29 @@
     .imgfondo1 {
         background-image: linear-gradient(0deg,
                 rgba(0, 0, 0, 0.5),
-                rgba(0, 0, 0, 0.5)), url("img/fondo1.jpg");
-        background-position: 100% 60%;
+                rgba(0, 0, 0, 0.5)), url("img/fondodesk1.jpg");
+        background-position: 100% 50%;
     }
 
     .imgfondo2 {
         background-image: linear-gradient(0deg,
                 rgba(0, 0, 0, 0.5),
-                rgba(0, 0, 0, 0.5)), url("img/fondo2.jpg");
+                rgba(0, 0, 0, 0.5)), url("img/fondodesk2.jpg");
         background-position: 100% 50%;
     }
 
     .imgfondo3 {
         background-image: linear-gradient(0deg,
                 rgba(0, 0, 0, 0.5),
-                rgba(0, 0, 0, 0.5)), url("img/fondo3.jpg");
+                rgba(0, 0, 0, 0.5)), url("img/fondodesk3.jpg");
         background-position: 100% 70%;
     }
 
     .imgfondo4 {
         background-image: linear-gradient(0deg,
                 rgba(0, 0, 0, 0.5),
-                rgba(0, 0, 0, 0.5)), url("img/fondo4.jpg");
-        background-position: 100% 40%;
+                rgba(0, 0, 0, 0.5)), url("img/fondodesk4.jpg");
+        background-position: 100% 30%;
     }
 
 
