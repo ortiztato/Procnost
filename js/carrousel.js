@@ -1,3 +1,5 @@
+// script for the frontpage image carrousel
+
 let autointerv;
 let indice = 1;
 muestraSlides(indice);
